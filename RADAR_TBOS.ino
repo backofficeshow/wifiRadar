@@ -7,7 +7,7 @@
 
 char ipaddress[25] = "";
 #define SETTINGS_RESET_PIN 14 // (Also Known as D5 on nodeMCU boards
-const int radarPin = 16;  // The pin that the Radar Module is connected to
+const int radarPin = 16;  // The pin that the Radar Module is connected to (D0 on nodeMCU)
 int radarValue = 0; // The current value of the Radar Pin
 int previousRadarValue = 0; //Store the last value we received
 unsigned long radarCounts = 0; // A counter that stores all the times the Radar was activated
